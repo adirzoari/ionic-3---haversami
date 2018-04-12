@@ -1,0 +1,74 @@
+page-register-student {
+    .around {
+        padding: 30px;
+        width: 100%;
+        border-radius: 25px;
+        background-color: white;
+    }
+    // Fullscreen centered image background
+    ion-content {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-color: transparent;
+    }
+    .headerimage {
+        height: 200px;
+        width: 100%;
+        margin: 0px auto;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100px' height='100px'%3E%3Cdefs%3E%3ClinearGradient id='g1' gradientUnits='userSpaceOnUse' x1='15.85%25' y1='-9.15%25' x2='84.15%25' y2='109.15%25'%3E%3Cstop offset='.15' stop-color='%2353f'/%3E%3Cstop offset='.7' stop-color='%2305d5ff'/%3E%3Cstop offset='.94' stop-color='%23a6ffcb'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpolygon fill='url%28%23g1%29' points='0 0, 100 0, 100 80, 0 100'/%3E%3C/svg%3E");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    .scroll-content {
+        background-image: radial-gradient(center center, ellipse cover, #ffeda3, #ffc800);
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+    .logo {
+        width: 50%;
+        height: auto;
+        max-width: 12em;
+        margin: 0 auto;
+        padding-bottom: 50px;
+        position: absolute;
+        top: -20;
+        left: 50;
+    }
+    .no-border {
+        border-bottom: 0 !important;
+        box-shadow: none !important;
+    }
+    ion-row {
+        align-items: center;
+        text-align: center;
+    }
+    @media only screen and (min-width: 768px) {
+        ion-col.col {
+            margin: 0 auto;
+            max-width: 40%;
+        }
+    }
+    span {
+        color: white;
+    }
+    ion-item {
+        // border-radius: 30px !important;
+        padding-left: 10px !important;
+        margin-bottom: 10px;
+        background-color: #f6f6f6;
+        opacity: 0.7;
+        font-size: 0.9em;
+    }
+    ion-list {
+        margin: 0;
+    }
+    .login-button {
+        width: 100%;
+        // border-radius: 30px;
+        font-size: 0.9em;
+        // border: 1px solid #fff;
+        background-color: #39acdc;
+    }
+}
